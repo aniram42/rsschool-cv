@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.header {
+    display: block;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+    color: black;
+    background-color: linen;
+    align-items: center;
+}
+
+.header-photo {
+    display: flex;
+    width: 30%;
+}
+
+.photo-img {
+    width: 100%;
+}
+
+.header-info {
+    width: 70%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header-menu {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    background-color: #D1A18D;
+    font-size: 18px;
+}
+
+.header-menu-list {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.header-menu-item {
+    position: relative;
+    margin-right: 30px;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+.header-menu-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: darkblue;
+}
+
+.header-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #D1A18D;
+    padding-right: 20px;
+}
+
+h1, h2 {
+    margin: 7px;
+}
+
+.h1-title {
+    font-weight: bold;
+    font-size: 46px;
+}
+
+.h2-title {
+    font-size: 22px;
+}
+
+.main-container {
+    display: flex;
+}
+
+.aside {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    background-color: #D1A18D;
+    color: black;
+    padding: 5px 5px 5px 20px;
+}
+
+.aside-section1 {
+    margin-top: 10px;
+}
+
+.aside-section2 {
+    margin-top: 50px;
+}
+
+.aside-main-title {
+    font-size: 22px;
+    background-color: linen;
+    width: max-content;
+    padding: 5px;
+}
+
+.aside-list {
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+
+.aside-list i {
+        width: 20px;
+        margin-right: 10px;
+        color: linen;
+        text-align: center;
+}
+
+.experience-list i {
+    width: 20px;
+    margin-right: 10px;
+    color: #D1A18D;
+    text-align: center;
+}
+
+
+.link {
+    text-decoration: none;
+    color: darkblue;
+}
+
+.right {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background-color: linen;
+    color: black;
+    padding: 5px 5px 5px 20px;
+}
+
+.main-section1 {
+    margin-top: 10px;
+}
+
+.main-main-title {
+    font-size: 22px;
+    padding: 5px;
+    line-height: 1.5;
+    text-align: right;
+    background-color: #D1A18D;
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+    width: max-content;
+}
+
+.description {
+    font-size: 18px;
+    text-align: justify;
+    padding-right: 20px;
+    line-height: 1.5;
+}
+
+.main-section2 {
+    margin-top: 35px;
+}
+
+.example {
+    background-color: lightgrey;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 20px 10px 5px;
+}
+
+.pre-code {
+    color: inherit;
+    font-style: italic;
+}
+
+.course-list::before {
+    content: "○";
+    color: darkblue;
+    margin: 0 10px 0 25px;
+}
+
+.footer-container {
+    width: 1000px;
+    height: 40px;
+    background-color: lightgrey;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img {
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.footer-text {
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.footer-rs-logo {
+    height: 40px;
+    width: 100px;
+    padding: 5px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
