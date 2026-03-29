@@ -2,9 +2,135 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>CV MY</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 <body>
-
+<header class="header">
+    <div class="container">
+        <div class="header-container">
+            <div class="header-photo">
+                <img src="photo.jpg" alt="photo" class="photo-img">
+            </div>
+            <div class="header-info">
+                <nav class="header-menu">
+                    <ul class="header-menu-list">
+                        <li class="header-menu-item">
+                            <a href="#about" class="header-menu-link">About me</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#experience" class="header-menu-link">Experience</a>
+                        </li>
+                        <li class="header-menu-item">
+                            <a href="#code" class="header-menu-link">Code Example</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div>
+                    <div class="header-social">
+                        <h1 class="h1-title">Maryna Yarosh</h1>
+                        <h2 class="h2-title">Junior Frontend Developer</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="main">
+    <div class="container">
+        <div class="main-container">
+            <aside class="aside">
+                <section class="aside-section1">
+                    <h3 class="aside-main-title">Contact information</h3>
+                    <ul class="aside-list">
+                        <li><i class="fas fa-map-marker-alt"></i>Location: Minsk, Belarus</li>
+                        <li><i class="fas fa-phone-alt"></i>Phone: +375 44 766-24-45</li>
+                        <li><i class="fas fa-envelope"></i>Email: aniram42@mail.ru</li>
+                        <li><i class="fab fa-github"></i><a href="https://github.com/aniram42" target="_blank" class="link">GitHub</a></li>
+                        <li><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/maryna-yarosh-325583241/" target="_blank" class="link">LinkedIn</a></li>
+                    </ul>
+                </section>
+                <section class="aside-section2">
+                    <h3 class="aside-main-title">Skills</h3>
+                    <ul class="aside-list">
+                        <li><i class="fab fa-html5"></i>HTML/CSS</li>
+                        <li><i class="fab fa-js-square"></i>JavaScript (basic)</li>
+                        <li><i class="fas fa-code-branch"></i>Git, GitHub</li>
+                    </ul>
+                </section>
+                <section class="aside-section2">
+                    <h3 class="aside-main-title">Languages</h3>
+                    <ul class="aside-list">
+                        <li><i class="fas fa-globe"></i>English - B1</li>
+                        <li><i class="fas fa-comments"></i>Russian - Native</li>
+                    </ul>
+                </section>
+            </aside>
+        <div class="right">
+            <section class="main-section1">
+                <h3 id='about' class="main-main-title">About me</h3>
+                <div class="description">
+                    I’m a Junior Frontend Developer with 9 years of experience as a Budget Engineer.
+                    My engineering background gave me strong analytical skills, attention to detail and
+                    expertise in breaking down complex projects into precise components - skills that
+                    translate naturally to write clean, logical code.
+                </div>
+            </section>
+            <section class="main-section2">
+                <h3 id='experience' class="main-main-title">Experience</h3>
+                <div class="description">
+                    <ul class="experience-list">
+                        <li><i class="fas fa-graduation-cap"></i>University: Belarusian National Technical University, engineer-economist</li>
+                        <li> <i class="fas fa-laptop-code"></i> Courses on Udemy.com:
+                            <ul class="aside-list">
+                                <li class="course-list"><a href="https://www.udemy.com/course/html-css-from-zero/learn/lecture/15785744?start=0#overview" target="_blank" class="link">HTML, CSS</a></li>
+                                <li class="course-list"><a href="https://www.udemy.com/course/html-css-from-zero/learn/lecture/15785744?start=0#overview" target="_blank" class="link">JavaScript</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="main-section2">
+                <h3 id='code' class="main-main-title">Code Example</h3>
+                <div class="example">
+                    <pre class="pre-code">
+                    <code>
+                    function removeChar(str){
+                    return str.slice(1, -1);
+                    };
+                    </code>
+                    </pre>
+                </div>
+            </section>
+        </div>
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <div class="container">
+        <div class="footer-container">
+            <div class="footer-info">
+                <div class="footer-logo">
+                    <a href="https://github.com/aniram42" target="_blank">
+                    <img src="github-icon.png" alt="github-icon" class="footer-img"></a>
+                </div>
+                <div class="footer-text">
+                    <span>2026</span>
+                </div>
+                <div class="rs-logo">
+                    <img src="rs-school-logo.png" alt="rs-logo" class="footer-rs-logo">
+                </div>
+                <div class="footer-link">
+                    <a href="https://rs.school/courses/javascript-preschool-ru" target="_blank" class="link">JS / Front-end Pre-school RU Course</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
